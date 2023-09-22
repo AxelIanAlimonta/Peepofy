@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/info-perfil.css" />
+    <link rel="stylesheet" href="../styles/premium.css" />
+    <title>Planes premium</title>
+  </head>
+  <body>
+    <header>
+      <article id="info-perfil">
+        <div>
+          <a href="../pages/perfil.html" id="nombre-usuario">
+            <p>Peepo Clown</p>
+          </a>
+          <a href="../index.html" id="cerrar-sesion">Cerrar sesión</a>
+        </div>
+        <a href="../pages/perfil.html">
+          <img
+            src="../src/img/peepo-clown.png"
+            alt="peepo-clown"
+            id="img-perfil"
+          />
+        </a>
+      </article>
+    </header>
+    <main>
+      <!-- <h1>Planes</h1> -->
+      <section id="planes">
+        <article class="plan">
+          <h2>Plan gratuito</h2>
+          <img
+            src="../src/img/peepo-sad.png"
+            alt="Peepo sad"
+            class="plan-img"
+          />
+          <p class="precio">Gratis</p>
+          <ul>
+            <li class="beneficio">
+              <img class="benef-img" src="../src/img/cross.png" alt="cross" />
+              <p class="benef-txt">Música ilimitada</p>
+            </li>
+            <li class="beneficio">
+              <img class="benef-img" src="../src/img/cross.png" alt="cross" />
+              <p class="benef-txt">Sin anuncios</p>
+            </li>
+            <li class="beneficio">
+              <img class="benef-img" src="../src/img/cross.png" alt="cross" />
+              <p class="benef-txt">Descargas habilitadas</p>
+            </li>
+          </ul>
+          <input
+            type="button"
+            class="btn"
+            onclick="location.href='../pages/pago.html'"
+            value="Elegir"
+          />
+        </article>
+        <article class="plan">
+          <h2>Plan Silver</h2>
+          <img
+            src="../src/img/peepo-gafas.png"
+            alt="Peepo sad"
+            class="plan-img"
+          />
+          <p class="precio">$2</p>
+          <ul>
+            <li class="beneficio">
+              <img class="benef-img" src="../src/img/tick.png" alt="tick" />
+              <p class="benef-txt">Música ilimitada</p>
+            </li>
+            <li class="beneficio">
+              <img class="benef-img" src="../src/img/tick.png" alt="tick" />
+              <p class="benef-txt">Sin anuncios</p>
+            </li>
+            <li class="beneficio">
+              <img class="benef-img" src="../src/img/cross.png" alt="cross" />
+              <p class="benef-txt">Descargas habilitadas</p>
+            </li>
+          </ul>
+          <input
+            type="button"
+            class="btn"
+            onclick="location.href='../pages/pago.html'"
+            value="Elegir"
+          />
+        </article>
+        <article class="plan">
+          <h2>Plan Gold</h2>
+          <img
+            src="../src/img/peepo-wkd.png"
+            alt="Peepo sad"
+            class="plan-img"
+          />
+          <p class="precio">$5</p>
+          <ul>
+            <li class="beneficio">
+              <img class="benef-img" src="../src/img/tick.png" alt="tick" />
+              <p class="benef-txt">Música ilimitada</p>
+            </li>
+            <li class="beneficio">
+              <img class="benef-img" src="../src/img/tick.png" alt="tick" />
+              <p class="benef-txt">Sin anuncios</p>
+            </li>
+            <li class="beneficio">
+              <img class="benef-img" src="../src/img/tick.png" alt="tick" />
+              <p class="benef-txt">Descargas habilitadas</p>
+            </li>
+          </ul>
+          <input
+            type="button"
+            class="btn"
+            onclick="location.href='../pages/pago.html'"
+            value="Elegir"
+          />
+        </article>
+      </section>
+      <section id="btns">
+        <input
+          type="button"
+          value="Cancelar"
+          class="btn"
+          id="btn-cancelar"
+          onclick="location.href='../pages/pantalla-principal.html'"
+        />
+      </section>
+    </main>
+  </body>
+</html>

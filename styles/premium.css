@@ -1,0 +1,78 @@
+html{
+    --peepo-color: RGB(92, 142, 55);
+    color: var(--peepo-color);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#planes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.plan{
+    border: 2px solid var(--peepo-color);
+    max-width: 200px;
+    max-height: 300px;
+    border-radius: 15%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:15px;
+}
+
+.plan h2{
+    color: white;
+    background-color: var(--peepo-color);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.precio{
+    font-size: 20px;
+    padding: 7px;
+    font-weight: 900;
+}
+
+.plan-img{
+    height: 100px;
+}
+
+.beneficio{
+    display: flex;
+}
+
+.benef-img{
+    width: 20px;
+}
+
+.btn{
+    background-color: white;
+    padding: 7px;
+    color: var(--peepo-color);
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 2px solid var(--peepo-color);
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--peepo-color);
+    color: white;
+}
+
+#btn-cancelar{
+    margin-top: 15px;
+}
