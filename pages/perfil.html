@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/info-perfil.css" />
+    <link rel="stylesheet" href="../styles/perfil.css" />
+    <title>Perfil</title>
+  </head>
+  <body>
+    <header>
+      <article id="info-perfil">
+        <div>
+          <a href="../pages/perfil.html" id="nombre-usuario">
+              <p >Peepo Clown</p>
+          </a>
+          <a href="../index.html" id="cerrar-sesion">Cerrar sesión</a>
+        </div>
+        <a href="../pages/perfil.html">
+            <img
+              src="../src/img/peepo-clown.png"
+              alt="peepo-clown"
+              id="img-perfil"
+            />
+        </a>
+      </article>
+    </header>
+    <main>
+      <form id="contenedor-campos">
+        <section id="campos-login">
+          <div class="campo-completo">
+            <label for="usr">Usuario</label>
+            <input id="usr" type="text" placeholder="Ingrese usuario"/>
+          </div>
+          <div class="campo-completo">
+            <label for="pass">Contraseña</label>
+            <input id="pass" type="password" placeholder="Ingrese contraseña"/>
+          </div>
+          <div class="campo-completo">
+            <label for="pass-r">Repetir contraseña</label>
+            <input id="pass-r" type="password" placeholder="Repita contraseña"/>
+          </div>
+        </section>
+        <section id="campos-info-personal">
+          <div class="campo-completo">
+            <label for="fnac">Fecha de nacimiento</label>
+            <input id="fnac" type="date" />
+          </div>
+          <div class="campo-completo">
+            <label for="e-mail">e-mail</label>
+            <input id="e-mail" type="email" placeholder="Ingrese e-mail"/>
+          </div>
+        </section>
+        <section id="links">
+          <a href="../pages/premium.html">Premium</a>
+          <a href="../index.html">Eliminar usuario</a>
+        </section>
+        <section id="btns">
+            <input onclick="location.href='../pages/pantalla-principal.html'" class="btn" type="button" value="Guardar">
+            <input onclick="location.href='../pages/pantalla-principal.html'" class="btn" type="button" value="Volver al home">
+        </section>
+      </form>
+    </main>
+  </body>
+</html>

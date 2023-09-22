@@ -1,0 +1,38 @@
+#info-perfil {
+    --peepo-color: RGB(92, 142, 55);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: var(--peepo-color);
+    padding: 5px;
+  }
+  
+
+#info-perfil div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 7px;
+}
+
+
+#nombre-usuario {
+  font-size: 25px;
+  padding: 0;
+  color: var(--peepo-color);
+  text-decoration: none;
+}
+
+#cerrar-sesion{
+  color: var(--peepo-color);
+}
+#cerrar-sesion:visited{
+  color: var(--peepo-color);
+}
+
+#img-perfil {
+  width: 80px;
+  padding: 2px;
+  border: 2px solid var(--peepo-color);
+  border-radius: 50%;
+}
