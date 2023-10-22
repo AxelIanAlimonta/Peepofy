@@ -11,7 +11,6 @@ html {
   color: var(--peepo-color);
 }
 
-
 #contenedor-campos {
   color: var(--peepo-color);
   display: flex;
@@ -55,25 +54,26 @@ html {
   margin-top: 30px;
 }
 
-#btns input{
-    font-size: 15px;
-    padding: 7px;
-    background-color: white;
-    color: var(--peepo-color);
-    border: 2px solid var(--peepo-color);
-    border-radius: 10px;
-    margin: 10px;
-    cursor: pointer;
+#btns input {
+  font-size: 15px;
+  padding: 7px;
+  background-color: white;
+  color: var(--peepo-color);
+  border: 2px solid var(--peepo-color);
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
 }
 
-#btns input:hover{
+#btns input:hover {
   background-color: var(--peepo-color);
   color: white;
 }
 
 main {
-  min-height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
