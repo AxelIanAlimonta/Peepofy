@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/reset.css" />
-    <link rel="stylesheet" href="../styles/registro.css">
+    <link rel="stylesheet" href="../styles/registro.css" />
     <title>Registro</title>
   </head>
   <body>
@@ -14,15 +14,19 @@
         <section id="campos-login">
           <div class="campo-completo">
             <label for="usr">Usuario</label>
-            <input id="usr" type="text" placeholder="Ingrese usuario"/>
+            <input id="usr" type="text" placeholder="Ingrese usuario" />
           </div>
           <div class="campo-completo">
             <label for="pass">Contraseña</label>
-            <input id="pass" type="password" placeholder="Ingrese contraseña"/>
+            <input id="pass" type="password" placeholder="Ingrese contraseña" />
           </div>
           <div class="campo-completo">
             <label for="pass-r">Repetir contraseña</label>
-            <input id="pass-r" type="password" placeholder="Repita contraseña"/>
+            <input
+              id="pass-r"
+              type="password"
+              placeholder="Repita contraseña"
+            />
           </div>
         </section>
         <section id="campos-info-personal">
@@ -32,7 +36,7 @@
           </div>
           <div class="campo-completo">
             <label for="e-mail">e-mail</label>
-            <input id="e-mail" type="email" placeholder="Ingrese e-mail"/>
+            <input id="e-mail" type="email" placeholder="Ingrese e-mail" />
           </div>
         </section>
         <section id="links">
@@ -40,8 +44,13 @@
           <a href="../index.html">Eliminar usuario</a>
         </section>
         <section id="btns">
-            <input onclick="location.href='../pages/pantalla-principal.html'" class="btn" type="button" value="Guardar">
-            <input onclick="location.href='../pages/pantalla-principal.html'" class="btn" type="button" value="Volver al home">
+          <input class="btn" type="submit" value="Registrarse" />
+          <input
+            class="btn"
+            onclick="location.href='../index.html'"
+            type="button"
+            value="Volver"
+          />
         </section>
       </form>
     </main>
